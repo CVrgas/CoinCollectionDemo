@@ -1,0 +1,67 @@
+.bigAside {
+	background-color: var(--five);
+	color: var(--one);
+	padding: 5rem 2rem;
+	width: 300px;
+}
+.bigAside hr {
+	margin: 1rem 0;
+}
+.bigAside ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+.bigAside h1 {
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+}
+.bigAside h1 span {
+	color: var(--two);
+}
+.bigAside ul li {
+	list-style-type: none;
+}
+.bigAside ul li a {
+	display: flex;
+	gap: 1rem;
+	color: var(--one);
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 0.7rem 1rem;
+	border-radius: 0.5rem;
+	transition: 0.1s;
+}
+.bigAside ul li a i {
+	font-size: 1.1rem;
+	color: var(--three);
+	background-color: transparent;
+}
+
+.bigAside ul li a:hover {
+	/* background-color: color-mix(in srgb, var(--one) 15%, transparent); */
+	background-color: var(--four);
+	transition: 0.3s;
+}
+.bigAside ul li a.active i {
+	color: var(--five);
+}
+.bigAside ul li a.active {
+	color: var(--five);
+	background-color: var(--one);
+	transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+	.bigAside {
+		max-width: 50px;
+		padding: 5rem 1rem;
+	}
+	.bigAside h1,
+	.bigAside ul li a p {
+		display: none;
+	}
+}

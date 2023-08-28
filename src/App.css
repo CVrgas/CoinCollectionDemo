@@ -1,0 +1,9 @@
+main {
+	display: flex;
+	height: 100dvh;
+}
+.center {
+	width: 100%;
+	overflow: auto;
+	position: relative;
+}

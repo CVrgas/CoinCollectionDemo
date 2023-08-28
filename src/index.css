@@ -1,0 +1,23 @@
+:root {
+	/* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+	font-family: "Roboto", sans-serif;
+	background-color: #242424;
+	--background-1: white;
+	--font-primary: blue;
+	--font-secundary: red;
+	--one: #f6f4f4;
+	--two: #70bbd7;
+	--three: rgb(0, 195, 255);
+	/* --three: #4075bc; */
+	--four: #6f7b9b;
+	--five: #1a2331;
+	/* F1F1F1  f6f4f4*/
+	/* 4075BC  16a6ec 1a2331 272c4b 020110 D1E1E4*/
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: var(--one);
+}

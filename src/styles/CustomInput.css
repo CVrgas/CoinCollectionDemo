@@ -1,0 +1,29 @@
+.CustomInput {
+	position: relative;
+	display: flex;
+	width: max-content;
+	height: max-content;
+}
+.CustomInput label {
+	position: absolute;
+	left: 0;
+	top: 20%;
+	z-index: 10;
+	padding: 0 5px;
+	margin-left: 0.5rem;
+	transition: 0.5s;
+	color: var(--five);
+}
+.CustomInput input {
+	border: 0;
+	border-bottom: 2px solid var(--three);
+	font-size: 1.1rem;
+	padding: 0.3rem 0.5rem;
+	outline: 0;
+}
+
+.CustomInput input:focus ~ label,
+.CustomInput input:not(:placeholder-shown) ~ label {
+	transform: translateY(-1.5rem);
+	color: color-mix(in srgb, var(--five) 45%, white);
+}

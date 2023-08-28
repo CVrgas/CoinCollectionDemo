@@ -1,0 +1,383 @@
+{
+	"coins": [
+		{
+			"id": 1,
+			"country": "Dominican Republic",
+			"denomination": "50",
+			"year": 1954,
+			"composition": "Silver",
+			"weight": "20 grams",
+			"diameter": "35mm",
+			"condition": "Uncirculated",
+			"mintage": 10000,
+			"description": "Commemorative coin featuring national hero Juan Pablo Duarte.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": true,
+				"grading_company": "NGC",
+				"grade": "MS 65"
+			},
+			"price": 150.0
+		},
+		{
+			"id": 2,
+			"country": "United States",
+			"denomination": "1",
+			"year": 1995,
+			"composition": "Copper",
+			"weight": "3.11 grams",
+			"diameter": "19.05mm",
+			"condition": "Circulated",
+			"mintage": 1000000,
+			"description": "Cent coin featuring President Abraham Lincoln.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 0.01
+		},
+		{
+			"id": 3,
+			"country": "Canada",
+			"denomination": "25",
+			"year": 2017,
+			"composition": "Nickel",
+			"weight": "4.4 grams",
+			"diameter": "23.88mm",
+			"condition": "Uncirculated",
+			"mintage": 5000000,
+			"description": "Quarter coin featuring a caribou.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": true,
+				"grading_company": "PCGS",
+				"grade": "MS 66"
+			},
+			"price": 0.25
+		},
+		{
+			"id": 4,
+			"country": "Australia",
+			"denomination": "2",
+			"year": 2000,
+			"composition": "Aluminium Bronze",
+			"weight": "6.6 grams",
+			"diameter": "20.5mm",
+			"condition": "Circulated",
+			"mintage": 2000000,
+			"description": "Two-dollar coin featuring an aboriginal elder.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 2.0
+		},
+		{
+			"id": 5,
+			"country": "United Kingdom",
+			"denomination": "1",
+			"year": 1983,
+			"composition": "Bronze",
+			"weight": "3.56 grams",
+			"diameter": "20.32mm",
+			"condition": "Circulated",
+			"mintage": 50000000,
+			"description": "Penny coin featuring Queen Elizabeth II.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 0.01
+		},
+		{
+			"id": 6,
+			"country": "Germany",
+			"denomination": "2",
+			"year": 2002,
+			"composition": "Copper-Nickel",
+			"weight": "8.5 grams",
+			"diameter": "25.75mm",
+			"condition": "Circulated",
+			"mintage": 600000000,
+			"description": "Two-euro coin featuring an eagle.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 2.0
+		},
+		{
+			"id": 7,
+			"country": "India",
+			"denomination": "5",
+			"year": 1992,
+			"composition": "Stainless Steel",
+			"weight": "6 grams",
+			"diameter": "23mm",
+			"condition": "Circulated",
+			"mintage": 1000000000,
+			"description": "Five-rupee coin featuring Mahatma Gandhi.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 5.0
+		},
+		{
+			"id": 8,
+			"country": "China",
+			"denomination": "1",
+			"year": 1999,
+			"composition": "Copper-Nickel-Zinc",
+			"weight": "5 grams",
+			"diameter": "25mm",
+			"condition": "Uncirculated",
+			"mintage": 50000000,
+			"description": "Yuan coin featuring the Great Wall of China.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": true,
+				"grading_company": "PCGS",
+				"grade": "MS 65"
+			},
+			"price": 1.0
+		},
+		{
+			"id": 9,
+			"country": "Russia",
+			"denomination": "10",
+			"year": 2009,
+			"composition": "Copper-Nickel",
+			"weight": "5.63 grams",
+			"diameter": "22mm",
+			"condition": "Uncirculated",
+			"mintage": 10000000,
+			"description": "Ten-ruble coin featuring a double-headed eagle.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 10.0
+		},
+		{
+			"id": 10,
+			"country": "France",
+			"denomination": "2",
+			"year": 1998,
+			"composition": "Copper-Nickel",
+			"weight": "8.5 grams",
+			"diameter": "25.75mm",
+			"condition": "Circulated",
+			"mintage": 100000000,
+			"description": "Two-euro coin featuring Marianne.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 2.0
+		},
+		{
+			"id": 11,
+			"country": "Japan",
+			"denomination": "1",
+			"year": 2009,
+			"composition": "Aluminium",
+			"weight": "1 gram",
+			"diameter": "20mm",
+			"condition": "Uncirculated",
+			"mintage": 500000000,
+			"description": "Yen coin featuring a chrysanthemum.",
+			"images": [
+				"https://example.com/coin_front.jpg",
+				"https://example.com/coin_back.jpg"
+			],
+			"certification": {
+				"graded": false
+			},
+			"price": 1.0
+		}
+	],
+
+	"bills": [
+		{
+			"id": 1,
+			"denomination": 20,
+			"currency": "USD",
+			"serialNumber": "AB12345678",
+			"issueDate": "2021-05-01",
+			"condition": "Very Good",
+			"country": "United States",
+			"year": 2000
+		},
+		{
+			"id": 2,
+			"denomination": 50,
+			"currency": "USD",
+			"serialNumber": "CD23456789",
+			"issueDate": "2021-06-15",
+			"condition": "Excellent",
+			"country": "United States",
+			"year": 1990
+		},
+		{
+			"id": 3,
+			"denomination": 10,
+			"currency": "EUR",
+			"serialNumber": "EF34567890",
+			"issueDate": "2021-07-20",
+			"condition": "Good",
+			"country": "Germany",
+			"year": 2000
+		},
+		{
+			"id": 4,
+			"denomination": 100,
+			"currency": "GBP",
+			"serialNumber": "GH45678901",
+			"issueDate": "2021-08-10",
+			"condition": "Very Good",
+			"country": "United Kingdom",
+			"year": 1970
+		},
+		{
+			"id": 5,
+			"denomination": 5,
+			"currency": "CAD",
+			"serialNumber": "IJ56789012",
+			"issueDate": "2021-09-05",
+			"condition": "Excellent",
+			"country": "Canada",
+			"year": 1970
+		},
+		{
+			"id": 6,
+			"denomination": 20,
+			"currency": "AUD",
+			"serialNumber": "KL67890123",
+			"issueDate": "2021-10-12",
+			"condition": "Good",
+			"country": "Australia",
+			"year": 1976
+		},
+		{
+			"id": 7,
+			"denomination": 50,
+			"currency": "USD",
+			"serialNumber": "MN78901234",
+			"issueDate": "2021-11-25",
+			"condition": "Very Good",
+			"country": "United States",
+			"year": 2014
+		},
+		{
+			"id": 8,
+			"denomination": 10,
+			"currency": "EUR",
+			"serialNumber": "OP89012345",
+			"issueDate": "2021-12-30",
+			"condition": "Good",
+			"country": "Germany",
+			"year": 2015
+		},
+		{
+			"id": 9,
+			"denomination": 100,
+			"currency": "GBP",
+			"serialNumber": "QR90123456",
+			"issueDate": "2022-01-08",
+			"condition": "Excellent",
+			"country": "United Kingdom",
+			"year": 2002
+		},
+		{
+			"id": 10,
+			"denomination": 5,
+			"currency": "CAD",
+			"serialNumber": "ST01234567",
+			"issueDate": "2022-02-18",
+			"condition": "Very Good",
+			"country": "Canada",
+			"year": 2013
+		},
+		{
+			"id": 11,
+			"denomination": 20,
+			"currency": "AUD",
+			"serialNumber": "UV12345678",
+			"issueDate": "2022-03-22",
+			"condition": "Good",
+			"country": "Australia",
+			"year": 1995
+		},
+		{
+			"id": 12,
+			"denomination": 50,
+			"currency": "USD",
+			"serialNumber": "WX23456789",
+			"issueDate": "2022-04-10",
+			"condition": "Excellent",
+			"country": "United States",
+			"year": 2020
+		},
+		{
+			"id": 13,
+			"denomination": 10,
+			"currency": "EUR",
+			"serialNumber": "YZ34567890",
+			"issueDate": "2022-05-05",
+			"condition": "Very Good",
+			"country": "Germany",
+			"year": 1986
+		},
+		{
+			"id": 14,
+			"denomination": 100,
+			"currency": "GBP",
+			"serialNumber": "AB45678901",
+			"issueDate": "2022-06-15",
+			"condition": "Good",
+			"country": "United Kingdom",
+			"year": 2014
+		},
+		{
+			"id": 15,
+			"denomination": 5,
+			"currency": "CAD",
+			"serialNumber": "CD56789012",
+			"issueDate": "2022-07-20",
+			"condition": "Excellent",
+			"country": "Canada",
+			"year": 2020
+		}
+	]
+}

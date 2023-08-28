@@ -1,0 +1,134 @@
+.center {
+	width: 100%;
+	background-color: color-mix(in srgb, var(--five), var(--one) 5%);
+	overflow: hidden;
+}
+.center .UploadForm {
+	padding: 1rem 3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+.center h1 {
+	width: 100%;
+	height: max-content;
+	color: var(--one);
+	font-size: 3rem;
+	font-weight: 400;
+	padding: 0 2.5rem;
+	padding-top: 5rem;
+}
+.center .photoInput {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	max-height: 300px;
+}
+.center .photoInput .UploadBtn {
+	display: flex;
+	padding: 0.3rem 0.5rem;
+	gap: 1rem;
+}
+.center .photoInput .UploadBtn > * {
+	flex: 1;
+	padding: 0.2rem 0;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	color: var(--five);
+	background-color: var(--one);
+	border: var(--five);
+	border-radius: 0.3rem;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+.center .photoInput .UploadBtn > *:hover {
+	background-color: color-mix(in srgb, var(--one), black 10%);
+	border: 1px solid var(--three);
+}
+.UploadForm .coinDetails,
+.UploadForm .saleDetails {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	row-gap: 1.5rem;
+	background-color: var(--five);
+	padding: 1.5rem;
+	border-radius: 1rem;
+}
+.UploadForm .coinDetails h2,
+.UploadForm .saleDetails h2 {
+	width: 100%;
+	color: var(--one);
+}
+.inputData {
+	display: flex;
+	position: relative;
+}
+.inputData input[type="text"] {
+	font-size: 20px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	padding: 5px 0;
+	background-color: transparent;
+	outline: none;
+	color: var(--one);
+}
+.inputData label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #ccc;
+	transition: all 0.3s ease;
+	pointer-events: none;
+}
+.inputData .underline {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: var(--three);
+	transform: scaleX(0);
+	transition: all 0.3s ease;
+}
+.inputData input[type="text"]:focus ~ label,
+.inputData input[type="text"]:valid ~ label {
+	top: -20px;
+	font-size: 16px;
+	color: var(--three);
+}
+.inputData input[type="text"]:focus ~ .underline,
+.inputData input[type="text"]:valid ~ .underline {
+	transform: scaleX(1);
+}
+.submitArea button {
+	color: var(--three);
+	background-color: transparent;
+	border: 3px solid var(--three);
+	padding: 0.5rem 1rem;
+	border-radius: 0.7rem;
+	transition: 0.3s;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.submitArea button:hover {
+	color: var(--five);
+	background-color: var(--one);
+	border: 3px solid var(--one);
+}
+.type {
+	display: flex;
+	flex-direction: column;
+	color: var(--one);
+	font-size: 1.2rem;
+}
+.type select {
+	background-color: var(--five);
+	color: var(--three);
+	font-size: 1.3rem;
+	text-transform: capitalize;
+	padding: 0.2rem 0;
+	border-radius: 0.5rem;
+}

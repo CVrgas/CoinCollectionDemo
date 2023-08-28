@@ -1,0 +1,64 @@
+.searchbar {
+	display: flex;
+	background-color: var(--one);
+	width: 400px;
+	margin: 0 auto;
+	align-items: center;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	border: 5px var(--one);
+	box-shadow: 0px 0px 0px 1px var(--four), inset 0 0 0px 2px var(--five);
+}
+.searchbar input {
+	font-size: 1.5rem;
+	padding: 0.5rem 0.5rem;
+	outline: none;
+	border: 0;
+	color: var(--five);
+	background-color: transparent;
+}
+.searchbar label {
+	order: -1;
+	color: var(--five);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0.5rem;
+	font-size: 1.5rem;
+}
+.topbar {
+	display: flex;
+	padding: 1rem 2rem;
+}
+.view {
+	position: relative;
+	color: var(--three);
+}
+.view input[type="checkbox"] {
+	position: absolute;
+	inset: 0;
+	appearance: none;
+}
+.view i {
+	font-size: 2rem;
+}
+.mainWindow {
+	color: var(--five);
+	margin-top: 1rem;
+}
+.mainWindow {
+	padding: 0 3rem;
+}
+.mainWindow h1 {
+	font-size: 3rem;
+	font-weight: 400;
+}
+.add {
+	color: var(--three);
+	display: flex;
+	gap: 0.5rem;
+	font-size: 1.2rem;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}

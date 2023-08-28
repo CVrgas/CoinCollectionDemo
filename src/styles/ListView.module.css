@@ -1,0 +1,87 @@
+.table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	table-layout: fixed;
+}
+.table thead tr {
+	background-color: var(--five);
+	color: var(--one);
+	text-align: left;
+	text-transform: capitalize;
+}
+.table thead tr th:nth-child(3),
+.table thead tr th:nth-child(4) {
+	width: 10%;
+}
+.table thead tr th:last-child,
+.table thead tr th:first-child {
+	width: 4rem;
+}
+.table th,
+.table td {
+	padding: 12px 15px;
+}
+.table tbody tr {
+	border-bottom: 1px solid #dddddd;
+	transition: 0.2s;
+}
+.table tbody tr td {
+	font-size: 1.1rem;
+}
+.table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+.table tbody tr:hover {
+	color: var(--three);
+	background-color: color-mix(in srgb, var(--one), black 5%);
+}
+
+.table tbody tr:last-of-type {
+	border-bottom: 2px solid var(--five);
+}
+.table tbody tr button {
+	padding: 0.4rem 1rem;
+	border-radius: 0.5rem;
+	border: 1px solid var(--three);
+	color: var(--three);
+	font-weight: 400;
+	font-size: 1.1rem;
+}
+.table tbody tr button:hover {
+	background-color: var(--three);
+	color: var(--one);
+	cursor: pointer;
+}
+.table tfoot tr td {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid lime;
+}
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+.navigation button {
+	color: var(--three);
+	border: 1px solid var(--three);
+	background-color: transparent;
+	padding: 0.3rem 0.5rem;
+	border-radius: 0.2rem;
+	font-size: 1.1rem;
+}
+.navigation button:disabled {
+	color: var(--four);
+	border: 1px solid var(--four);
+}
+.navigation button:not(:disabled):hover {
+	color: var(--one);
+	background-color: var(--three);
+	cursor: pointer;
+}
