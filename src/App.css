@@ -1,9 +1,21 @@
 main {
 	display: flex;
 	height: 100dvh;
+	position: relative;
 }
 .center {
 	width: 100%;
 	overflow: auto;
 	position: relative;
+}
+.alert {
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	z-index: 999;
+	background-color: yellow;
+	color: black;
+	font-weight: 500;
+	font-size: 1.5rem;
+	padding: 0 0.4rem;
 }

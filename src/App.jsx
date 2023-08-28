@@ -21,6 +21,7 @@ function App() {
 	return (
 		<Router>
 			<main>
+				<h1 className="alert">App is still in development.</h1>
 				<Sidebar></Sidebar>
 				<Routes>
 					<Route
